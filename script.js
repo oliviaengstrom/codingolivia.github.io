@@ -1,25 +1,46 @@
 
-console.log("hello");
-alert("you wanna see me disappear and come back really fast?");
-console.log(10*10);
-console.log(2+5);
-console.log (7/8);
-console.log(Math.random());
+	
+//java array-->
+		var swedishcities = [
+			{
+				name: 'Stockholm',
+				temp: 6 //int=siffror//
+			},
+			
+			{
+				name: 'Uppsala',
+				temp: 8
+				//int=siffror//
+			},
 
-document.getElementById('pop').innerHTML = "magic";
+			{
+				name: 'Malmö',
+				temp: 13 //int=siffror//
+			},
 
-if (4>5){
-	console.log("it is true");
-}
+			{
+				name: 'Gothenburg',
+				temp: 10 //int=siffror//
+			},
 
-else {
-	console.log("it is false!");
-}
+			{
+				name: 'Västerås',
+				temp: 7 //int=siffror//
+			}
 
-function printApples(nrApples) {
-	while (x<nrApples){
+		];
+		
+//java array-->
 
-	}
-}
+		var displayweather = document.getElementById('weather'); 
 
-printApples(10);
+		for (var i = 0; i<5; i = i + 1) {
+				var div = document.createElement('div');
+				div.append(swedishcities[i].name);
+				div.append(swedishcities[i].temp);
+				displayweather.append(div);
+
+		}
+
+	
+
