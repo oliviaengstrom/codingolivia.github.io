@@ -38,12 +38,11 @@ html, body {
 }
 
  .navigationBar a {
-	font-family: Anders;
-	font-weight: bold;
+	font-family: Raleway-Thin;
 	text-decoration: none;
 	color: #000000;
 	font-size: 20px;
-	padding: 15px;
+	padding: 20px;
 
 
 
@@ -58,7 +57,7 @@ html, body {
 h1 {
 	font-family: Anders;
 	color: #FAFAFA;
-	font-size: 95px;
+	font-size: 70px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 180px;
@@ -81,4 +80,5 @@ h2 {
 }
 
 /*____________________________________________________*/
+
 

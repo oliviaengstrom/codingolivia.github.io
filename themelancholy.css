@@ -1,7 +1,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #000000;
+	background: url("wintertree.jpg") no-repeat center center fixed;
+	background-size: cover;
 	width: 100%;
 	height:100%;
 
@@ -43,6 +44,9 @@ html, body {
 	font-size: 20px;
 	padding: 20px;
 
+
+
+
 }
 /*____________________________________________________*/
 .middle {
@@ -50,46 +54,17 @@ html, body {
 
 }
 
-.textMiddle {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-items: flex-end;
-	height: 50%;
-
-
-
-
-}
-
-.redButton {
-	max-width: 50px;
-	max-height:50px;
-
-}
-
-.brokenbuttontext {
-	color: #ffffff;
-}
-
 p {
-	color: #ffffff;
-	text-align: center;
 	font-family: Raleway-Thin;
-
 }
 
-.comment: { 
-	color: #000000; 
-	text-align: center;
+a {
 	font-family: Raleway-Thin;
-	font-size: 10px;
-
 }
 
 /*h1 {
 	font-family: Anders;
-	color: #F5F2F7;
+	color: #FAFAFA;
 	font-size: 95px;
 	text-align: center;
 	vertical-align: middle;
@@ -100,12 +75,12 @@ p {
 
 h2 {
 	font-family: Anders;
-	color: #F5F2F7;
+	color: #FAFAFA;
 	font-size: 60px;
 	line-height: 25px;
 	text-align: center;
 	text-shadow: -1px -1px 6px rgba(150, 157, 155, 0.74);
-}*/
+}
 
 /*____________________________________________________*/
 
@@ -114,5 +89,4 @@ h2 {
 }
 
 /*____________________________________________________*/
-
 
