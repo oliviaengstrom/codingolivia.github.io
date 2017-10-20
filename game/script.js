@@ -1,36 +1,37 @@
 
-	
+
 //java array-->
 		var swedishcities = [
 			{
-				name: 'Stockholm',
+				name: 'Stockholm\ns',
 				temp: 6 //int=siffror//
 			},
 			
 			{
-				name: 'Uppsala',
+				name: 'Uppsala\n',
 				temp: 8
 				//int=siffror//
 			},
 
 			{
-				name: 'Malmö',
+				name: 'Malmö\n',
 				temp: 13 //int=siffror//
 			},
 
 			{
-				name: 'Gothenburg',
+				name: 'Gothenburg\n',
 				temp: 10 //int=siffror//
 			},
 
 			{
-				name: 'Västerås',
+				name: 'Västerås\n',
 				temp: 7 //int=siffror//
 			}
 
 		];
 		
 //java array-->
+//displaying java array in html-->
 
 		var displayweather = document.getElementById('weather'); 
 
@@ -41,6 +42,8 @@
 				displayweather.append(div);
 
 		}
+//displaying java array in html-->
+		
 
 	
 

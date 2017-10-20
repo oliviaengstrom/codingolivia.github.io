@@ -1,7 +1,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background-color: #000000;
+	background: url("wintertree.jpg") no-repeat center center fixed;
+	background-size: cover;
 	width: 100%;
 	height:100%;
 
@@ -56,8 +57,7 @@ html, body {
 	align-items: center;
 	align-items: flex-end;
 	height: 50%;
-
-
+	fn
 
 
 }
@@ -66,24 +66,27 @@ html, body {
 	max-width: 50px;
 	max-height:50px;
 
+
 }
 
 .brokenbuttontext {
-	color: #ffffff;
+	color: #000000;
+	font-weight:
 }
 
 p {
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 	font-family: Raleway-Thin;
+
 
 }
 
-.comment: { 
-	color: #000000; 
+.comment{
+	color: #000000;
 	text-align: center;
 	font-family: Raleway-Thin;
-	font-size: 10px;
+	font-size: 15px;
 
 }
 
