@@ -3,50 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device=width", initial-scale="1.0">
-	<meta name="description" content="Oliviasgame">
-	<meta name="keywords" content="winter">
+	<meta name="description" content="Life of a Hamster">
+	<meta name="keywords" content="hamster">
 	<meta name="author" content="Olivia Engstrom">
-	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- Start: Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108231975-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-108231975-1');
-</script>
-<!-- End: Global site tag (gtag.js) - Google Analytics -->
-<title>Brace yourself|</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+	<title>Unicorn Chart</title>
 </head>
-
 <body>
-	<div class="mamma"> <!--ligger runt "container"-->
-		<div class= "top container">
-			<nav class="navigationBar"> <!--content till "top"-->
-						<a href="thecold.html">THE COLD</a>
-						<a href="thedarkness.html">THE DARKNESS </a>
-						<a href="themelancholy.html">THE MELANCHOLY</a>
-				</nav>
-		</div>
+	<div class="container">
+		<canvas id = 'myChart'></canvas>
+		
 
-		<div class="middle container">
-			<div class="textMiddle "> <!--content till "middle"-->
-				<h1>SWEDISH WINTER</h1>
-				<h2>FOR IDIOTS</h2>
-				<div class="sidebar">
-				</div>
-			</div>	
- 		 </div>
+	</div> 
+	<script>
+		let myChart = document.getElementById('myChart').getContext('2d');
 
-	<div class="bottom container">
-		<div class="footer"> <!--content till "bottom"-->
-			
-		</div>
-	</div>
-	</div>
-
+		let UnicornSearchChart = new Chart(myChart, {
+			type:'line',
+			data:{
+				labels:["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"],
+				datasets:[{
+					label:'Searches'
+				}]
+			},
+			options:{}
+		});
+	</script>
 </body>
-<script src="script.js"></script>
 </html>
